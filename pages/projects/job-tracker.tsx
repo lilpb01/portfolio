@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import ScreenshotCarousel from "@/components/ScreenshotCarousel";
 import Background from "@/components/Background";
-
+import Link from "next/link"
 const shots = [
   { src: "/screenshots/job-tracker_signup.png", alt: "Signup" },
   { src: "/screenshots/job-tracker_dashboard.png", alt: "Dashboard" },
@@ -114,22 +114,22 @@ export default function JobTrackerPage() {
             transition={{ duration: 0.6, delay: 0.4 }}
             className="mt-10 flex gap-4"
           >
-            <a
+            <Link
               href="https://github.com/lilpb01/jobtracker"
               target="_blank"
               rel="noopener noreferrer"
               className="px-4 py-2 bg-zinc-800 rounded hover:bg-zinc-700 transition"
             >
               GitHub
-            </a>
-            <a
+            </Link>
+            <Link
               href="https://jobtracker-pvdw.vercel.app"
               target="_blank"
               rel="noopener noreferrer"
               className="px-4 py-2 bg-blue-600 rounded hover:bg-blue-500 transition"
             >
               Live Demo
-            </a>
+            </Link>
             <p className="mt-8 text-sm text-zinc-500 italic">
               Note: Sign up may take a moment the first time because the database needs to spin back up.
             </p>
@@ -137,12 +137,12 @@ export default function JobTrackerPage() {
 
           {/* Back to Home Button */}
           <div className="mt-12 text-center">
-            <a
+            <Link
               href="/"
               className="inline-block px-4 py-2 bg-zinc-800 rounded hover:bg-zinc-700 transition text-zinc-200"
             >
               Back to Home
-            </a>
+            </Link>
           </div>
         </div>
       </div>

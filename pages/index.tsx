@@ -44,12 +44,12 @@ export default function Home() {
         {/* Top nav */}
         <header className="sticky top-0 z-10 backdrop-blur supports-[backdrop-filter]:bg-black/30">
           <div className="mx-auto flex max-w-5xl items-center justify-between px-6 py-4">
-            <a href="#home" className="font-semibold tracking-tight text-zinc-100">PB</a>
+            <Link href="#home" className="font-semibold tracking-tight text-zinc-100">PB</Link>
             <nav className="hidden gap-6 text-sm md:flex">
-              <a href="#about" className="text-zinc-400 transition hover:text-zinc-100">About</a>
-              <a href="#education" className="text-zinc-400 transition hover:text-zinc-100">Education</a>
-              <a href="#projects" className="text-zinc-400 transition hover:text-zinc-100">Projects</a>
-              <a href="#contact" className="text-zinc-400 transition hover:text-zinc-100">Contact</a>
+              <Link href="#about" className="text-zinc-400 transition hover:text-zinc-100">About</Link>
+              <Link href="#education" className="text-zinc-400 transition hover:text-zinc-100">Education</Link>
+              <Link href="#projects" className="text-zinc-400 transition hover:text-zinc-100">Projects</Link>
+              <Link href="#contact" className="text-zinc-400 transition hover:text-zinc-100">Contact</Link>
             </nav>
           </div>
         </header>
@@ -80,18 +80,18 @@ export default function Home() {
                 transition={{ duration: 0.7, ease: "easeOut", delay: 0.1 }}
                 className="mt-6 flex items-center justify-center gap-4"
               >
-                <a
+                <Link
                   href="mailto:bhandari.122@osu.edu"
                   className="rounded-xl border border-white/10 bg-white/[0.03] px-4 py-2 text-sm text-zinc-200 transition hover:border-white/20 hover:bg-white/[0.06] focus:outline-none focus:ring-2 focus:ring-zinc-400/30"
                 >
                   Get in touch
-                </a>
-                <a
+                </Link>
+                <Link
                   href="#projects"
                   className="rounded-xl border border-white/10 px-4 py-2 text-sm text-zinc-300 transition hover:border-white/20 focus:outline-none focus:ring-2 focus:ring-zinc-400/30"
                 >
                   View projects
-                </a>
+                </Link>
               </motion.div>
               {/* Socials */}
               <motion.div
@@ -213,12 +213,12 @@ export default function Home() {
               <RevealLine />
               <p className="mt-2 max-w-3xl text-zinc-400">
                 Email me at
-                <a
+                <Link
                   className="ml-2 underline decoration-zinc-600 underline-offset-4 hover:text-zinc-200"
                   href="mailto:bhandari.122@osu.edu"
                 >
                   bhandari.122@osu.edu
-                </a>.
+                </Link>.
               </p>
             </div>
           </FadeInSection>
@@ -262,7 +262,7 @@ function IconLink({
   children: React.ReactNode;
 }) {
   return (
-    <a
+    <Link
       href={href}
       aria-label={label}
       target={href.startsWith("http") ? "_blank" : undefined}
@@ -270,7 +270,7 @@ function IconLink({
       className="rounded-xl border border-white/5 bg-white/[0.02] p-2 transition hover:border-white/10 hover:bg-white/[0.05] focus:outline-none focus:ring-2 focus:ring-zinc-400/30"
     >
       <div className="h-5 w-5 text-zinc-300">{children}</div>
-    </a>
+    </Link>
   );
 }
 

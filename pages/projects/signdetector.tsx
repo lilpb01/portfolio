@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import Background from "@/components/Background";
 import Image from "next/image";
-
+import Link from "next/link"
 export default function ASLSignDetectorPage() {
     return (
         <Background>
@@ -134,33 +134,33 @@ export default function ASLSignDetectorPage() {
                         transition={{ duration: 0.6, delay: 0.3 }}
                         className="mt-10 flex flex-wrap items-center gap-4"
                     >
-                        <a
+                        <Link
                             href="https://github.com/lilpb01/SignLanguage"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="px-4 py-2 bg-zinc-800 rounded hover:bg-zinc-700 transition"
                         >
                             GitHub
-                        </a>
+                        </Link>
 
-                        <a
+                        <Link
                             href="https://youtu.be/e3mMbhMogH8?si=s8nAUx16jKAnBF2U"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="px-4 py-2 bg-blue-600 rounded hover:bg-blue-500 transition"
                         >
                             Demo
-                        </a>
+                        </Link>
                     </motion.div>
 
                     {/* Back to Home Button */}
                     <div className="mt-12 text-center">
-                        <a
+                        <Link
                             href="/"
                             className="inline-block px-4 py-2 bg-zinc-800 rounded hover:bg-zinc-700 transition text-zinc-200"
                         >
                             Back to Home
-                        </a>
+                        </Link>
                     </div>
 
                 </div>

@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import Background from "@/components/Background";
 import ScreenshotCarousel from "@/components/ScreenshotCarousel";
 import Image from "next/image"
+import Link from "next/link"
 
 const edaShots = [
     { src: "/screenshots/exo1.png", alt: "EDA Overview" },
@@ -60,14 +61,14 @@ export default function ExoplanetClassifierPage() {
                             <div className="rounded-xl border border-white/10 bg-white/[0.02] p-5">
                                 <h2 className="text-lg font-semibold text-zinc-100">Data Source</h2>
                                 <p className="mt-2 text-zinc-400">
-                                    <a
+                                    <Link
                                         href="https://exoplanet.eu"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         className="underline hover:text-zinc-300 transition"
                                     >
                                         exoplanet.eu
-                                    </a>{" "}
+                                    </Link>{" "}
                                     (curated catalog of exoplanet parameters)
                                 </p>
                             </div>
@@ -177,14 +178,14 @@ export default function ExoplanetClassifierPage() {
                         transition={{ duration: 0.6, delay: 0.4 }}
                         className="mt-10 flex flex-wrap items-center gap-4"
                     >
-                        <a
+                        <Link
                             href="https://github.com/lilpb01/Exoplanet-Habitability"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="px-4 py-2 bg-zinc-800 rounded hover:bg-zinc-700 transition"
                         >
                             GitHub
-                        </a>
+                        </Link>
 
 
 
@@ -193,12 +194,12 @@ export default function ExoplanetClassifierPage() {
 
                     {/* Back to Home Button */}
                     <div className="mt-12 text-center">
-                        <a
+                        <Link
                             href="/"
                             className="inline-block px-4 py-2 bg-zinc-800 rounded hover:bg-zinc-700 transition text-zinc-200"
                         >
                             Back to Home
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </div>

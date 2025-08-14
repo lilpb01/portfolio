@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import Background from "@/components/Background";
 import Image from "next/image";
-
+import Link from "next/link"
 export default function BrainTumorClassifierPage() {
     return (
         <Background>
@@ -53,14 +53,14 @@ export default function BrainTumorClassifierPage() {
                                 <h2 className="text-lg font-semibold text-zinc-100">Dataset</h2>
                                 <p className="mt-2 text-zinc-400">
                                     Source:{" "}
-                                    <a
+                                    <Link
                                         href="https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         className="underline underline-offset-4 decoration-zinc-600 hover:text-zinc-300 transition"
                                     >
                                         Kaggle Brain Tumor Dataset
-                                    </a>
+                                    </Link>
                                     . 7,023 MRI images across four classes.
                                 </p>
                             </div>
@@ -181,26 +181,25 @@ export default function BrainTumorClassifierPage() {
                         transition={{ duration: 0.6, delay: 0.3 }}
                         className="mt-10 flex flex-wrap items-center gap-4"
                     >
-                        <a
+                        <Link
                             href="https://github.com/yourusername/brain-tumor-classifier"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="px-4 py-2 bg-zinc-800 rounded hover:bg-zinc-700 transition"
                         >
                             GitHub
-                        </a>
-                        {/* Optional: link to a model card / weights / notebook */}
-                        {/* <a href="#" className="px-4 py-2 bg-blue-600 rounded hover:bg-blue-500 transition" target="_blank" rel="noopener noreferrer">Notebook</a> */}
+                        </Link>
+
                     </motion.div>
 
                     {/* Back to Home Button */}
                     <div className="mt-12 text-center">
-                        <a
+                        <Link
                             href="/"
                             className="inline-block px-4 py-2 bg-zinc-800 rounded hover:bg-zinc-700 transition text-zinc-200"
                         >
                             Back to Home
-                        </a>
+                        </Link>
                     </div>
 
 

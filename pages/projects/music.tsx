@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import Background from "@/components/Background";
 import Image from "next/image";
-
+import Link from "next/link"
 export default function MusicScaleEvennessPage() {
     return (
         <Background>
@@ -173,26 +173,26 @@ export default function MusicScaleEvennessPage() {
                         transition={{ duration: 0.6, delay: 0.4 }}
                         className="mt-10 flex flex-wrap items-center gap-4"
                     >
-                        <a
+                        <Link
                             href="https://github.com/lilpb01/Music-Scale-Evenness-Analyzer"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="px-4 py-2 bg-zinc-800 rounded hover:bg-zinc-700 transition"
                         >
                             GitHub
-                        </a>
+                        </Link>
                         {/* Optional: demo audio or video */}
                         {/* <a href="/audio/scales4.wav" className="px-4 py-2 bg-blue-600 rounded hover:bg-blue-500 transition">Sample Audio</a> */}
                     </motion.div>
 
                     {/* Back to Home Button */}
                     <div className="mt-12 text-center">
-                        <a
+                        <Link
                             href="/"
                             className="inline-block px-4 py-2 bg-zinc-800 rounded hover:bg-zinc-700 transition text-zinc-200"
                         >
                             Back to Home
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </div>
