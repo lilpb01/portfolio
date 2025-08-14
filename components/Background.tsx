@@ -9,6 +9,7 @@ export default function Background({ children }: { children: ReactNode }) {
         await loadFull(engine);
     }, []);
 
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     const particlesLoaded = useCallback(async (_?: Container) => { }, []);
 
     return (
