@@ -1,7 +1,4 @@
 
-import { loadFull } from "tsparticles";
-import type { Engine, Container } from "tsparticles-engine";
-import { useCallback } from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import Background from "@/components/Background";

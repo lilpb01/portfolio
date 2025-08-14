@@ -1,4 +1,4 @@
-// components/Background.tsx
+
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import type { Engine, Container } from "tsparticles-engine";
@@ -9,7 +9,7 @@ export default function Background({ children }: { children: ReactNode }) {
         await loadFull(engine);
     }, []);
 
-    const particlesLoaded = useCallback(async (_c?: Container) => { }, []);
+    const particlesLoaded = useCallback(async (_?: Container) => { }, []);
 
     return (
         <div className="relative min-h-screen bg-gradient-to-br from-zinc-950 via-black to-zinc-900 text-zinc-200 selection:bg-zinc-700/50">
