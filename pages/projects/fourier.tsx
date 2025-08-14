@@ -99,7 +99,7 @@ export default function FourierPage() {
                             className="mt-10 flex flex-wrap items-center gap-4"
                         >
                             <Link
-                                href="https://github.com/lilpb01/Fourier-Visualizer"
+                                href="https://github.com/lilpb01/Fourier-Drawing-with-Epicycles"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="px-4 py-2 bg-zinc-800 rounded hover:bg-zinc-700 transition"
