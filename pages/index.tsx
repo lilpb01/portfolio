@@ -115,9 +115,7 @@ export default function Home() {
             <h2 className="text-xl font-semibold text-zinc-100 md:text-2xl">About</h2>
             <RevealLine />
             <p className="mt-3 max-w-3xl text-zinc-400">
-              I’m a CSE student at Ohio State focusing on machine learning and computer vision. I enjoy
-              building clean data pipelines and intuitive visualizations. Recently, I’ve worked on an
-              exoplanet ML project, a job application tracker, and a pulse-monitoring wearable.
+              I’m studying computer science and statistics at The Ohio State University, and I love working where math, programming, and data meet. I’m especially interested in AI, machine learning, and data analysis—anything that lets me dig into patterns, solve problems, and build something useful.
             </p>
           </FadeInSection>
         </section>
