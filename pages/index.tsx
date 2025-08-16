@@ -2,6 +2,11 @@
 import { motion } from "framer-motion";
 import Link from "next/link";
 import Background from "@/components/Background";
+import dynamic from "next/dynamic";
+
+// because SkillTree is a client component
+const SkillTree = dynamic(() => import("../components/SkillTree"), { ssr: false });
+
 
 // Reusable, minimal scroll-reveal wrapper
 function FadeInSection({ children }: { children: React.ReactNode }) {
@@ -199,6 +204,7 @@ export default function Home() {
             </div>
           </FadeInSection>
         </section>
+
 
         {/* Contact */}
         <section id="contact" className="mx-auto my-24 max-w-5xl px-6">
