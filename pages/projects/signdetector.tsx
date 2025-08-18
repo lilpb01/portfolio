@@ -60,7 +60,7 @@ export default function ASLSignDetectorPage() {
 
                         {/* Model Summary */}
                         <div className="rounded-xl border border-white/10 bg-white/[0.02] p-5">
-                            <h2 className="mb-3 text-lg font-semibold text-zinc-100">🧠 Model Summary</h2>
+                            <h2 className="mb-3 text-lg font-semibold text-zinc-100">Model Summary</h2>
                             <div className="overflow-x-auto">
                                 <table className="w-full text-left text-sm text-zinc-300">
                                     <tbody className="[&>tr+tr]:border-t [&>tr+tr]:border-white/10">

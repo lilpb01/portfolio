@@ -120,7 +120,9 @@ export default function Home() {
             <h2 className="text-xl font-semibold text-zinc-100 md:text-2xl">About</h2>
             <RevealLine />
             <p className="mt-3 max-w-3xl text-zinc-400">
-              I’m studying computer science and statistics at The Ohio State University, and I love working where math, programming, and data meet. I’m especially interested in AI, machine learning, and data analysis—anything that lets me dig into patterns, solve problems, and build something useful.
+              I’m studying computer science and statistics at The Ohio State University, and I love working where math, programming, and data meet.
+              I’m especially interested in AI, machine learning, and data analysis—anything that lets me dig into patterns, solve problems, and build something useful.
+              Outside of academics, I enjoy playing pickleball and practicing the saxophone.
             </p>
           </FadeInSection>
         </section>

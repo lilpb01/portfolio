@@ -90,7 +90,7 @@ export default function BrainTumorClassifierPage() {
 
                         {/* Model Summary */}
                         <div className="rounded-xl border border-white/10 bg-white/[0.02] p-5">
-                            <h2 className="mb-3 text-lg font-semibold text-zinc-100">🧠 Model Summary</h2>
+                            <h2 className="mb-3 text-lg font-semibold text-zinc-100">Model Summary</h2>
                             <div className="overflow-x-auto">
                                 <table className="w-full text-left text-sm text-zinc-300">
                                     <tbody className="[&>tr+tr]:border-t [&>tr+tr]:border-white/10">
@@ -182,7 +182,7 @@ export default function BrainTumorClassifierPage() {
                         className="mt-10 flex flex-wrap items-center gap-4"
                     >
                         <Link
-                            href="https://github.com/yourusername/brain-tumor-classifier"
+                            href="https://github.com/pbhandari23/Brain-Tumor-Recognition"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="px-4 py-2 bg-zinc-800 rounded hover:bg-zinc-700 transition"

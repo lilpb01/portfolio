@@ -91,7 +91,7 @@ export default function ExoplanetClassifierPage() {
 
                         {/* Model Summary */}
                         <div className="rounded-xl border border-white/10 bg-white/[0.02] p-5">
-                            <h2 className="mb-3 text-lg font-semibold text-zinc-100">🧠 Model Summary</h2>
+                            <h2 className="mb-3 text-lg font-semibold text-zinc-100"> Model Summary</h2>
                             <div className="overflow-x-auto">
                                 <table className="w-full text-left text-sm text-zinc-300">
                                     <tbody className="[&>tr+tr]:border-t [&>tr+tr]:border-white/10">
@@ -118,7 +118,7 @@ export default function ExoplanetClassifierPage() {
 
                         {/* EDA */}
                         <div className="rounded-xl border border-white/10 bg-white/[0.02] p-5">
-                            <h2 className="text-lg font-semibold text-zinc-100">🔍 Exploratory Data Analysis</h2>
+                            <h2 className="text-lg font-semibold text-zinc-100"> Exploratory Data Analysis</h2>
                             <ul className="mt-3 list-disc list-inside space-y-1 text-zinc-400">
                                 <li>Feature distributions segmented by habitability</li>
                                 <li>Handling of missing values and normalization</li>
