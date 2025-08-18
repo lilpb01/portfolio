@@ -4,9 +4,6 @@ import Link from "next/link";
 import Background from "@/components/Background";
 import dynamic from "next/dynamic";
 
-// because SkillTree is a client component
-const SkillTree = dynamic(() => import("../components/SkillTree"), { ssr: false });
-
 
 // Reusable, minimal scroll-reveal wrapper
 function FadeInSection({ children }: { children: React.ReactNode }) {
