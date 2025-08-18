@@ -2,7 +2,6 @@
 import { motion } from "framer-motion";
 import Link from "next/link";
 import Background from "@/components/Background";
-import dynamic from "next/dynamic";
 
 
 // Reusable, minimal scroll-reveal wrapper
