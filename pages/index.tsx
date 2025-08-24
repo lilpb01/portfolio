@@ -116,9 +116,10 @@ export default function Home() {
             <h2 className="text-xl font-semibold text-zinc-100 md:text-2xl">About</h2>
             <RevealLine />
             <p className="mt-3 max-w-3xl text-zinc-400">
-              I’m studying computer science and statistics at The Ohio State University, and I love working where math, programming, and data meet.
-              I’m especially interested in AI, machine learning, and data analysis—anything that lets me dig into patterns, solve problems, and build something useful.
-              Outside of academics, I enjoy playing pickleball and practicing the saxophone.
+              My name is Prateek Bhandari and I am studying computer science and statistics as an undergraduate student at Ohio
+              State University. I really enjoy learning about math and statistics, and I like to solve problems through programming.
+              Outisde of academics, I'm a member of the OSU Saxophone Studio, where I pursue my passion of classical music, and I also
+              enjoy playing pickleball with friends.
             </p>
           </FadeInSection>
         </section>
