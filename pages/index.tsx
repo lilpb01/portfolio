@@ -118,7 +118,7 @@ export default function Home() {
             <p className="mt-3 max-w-3xl text-zinc-400">
               My name is Prateek Bhandari and I am studying computer science and statistics as an undergraduate student at Ohio
               State University. I really enjoy learning about math and statistics, and I like to solve problems through programming.
-              Outisde of academics, I'm a member of the OSU Saxophone Studio, where I pursue my passion of classical music, and I also
+              Outisde of academics, I am a member of the OSU Saxophone Studio, where I pursue my passion of classical music, and I also
               enjoy playing pickleball with friends.
             </p>
           </FadeInSection>
